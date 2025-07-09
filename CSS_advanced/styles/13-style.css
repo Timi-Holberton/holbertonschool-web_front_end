@@ -56,7 +56,7 @@ a[href]:hover {
 }
 
 a[href]:active {
-	color: var(--color-light-grey);
+	background-color: var(--color-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {
