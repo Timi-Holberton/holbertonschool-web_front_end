@@ -225,9 +225,7 @@ a:active {
 }
 
 .section-hero {
-	background-size: 10rem 5rem;
-	width: 90rem;
-	height: auto;
+	background-size: 90rem auto;
 }
 
 .section-hero .section-title {
