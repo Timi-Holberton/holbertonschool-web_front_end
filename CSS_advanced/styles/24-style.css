@@ -120,7 +120,7 @@ ul.row {
 	color: var(--nav-item-link-hover);
 }
 
-.card-title .card-services {
+.card-services .card-title {
 	margin: 0;
 }
 
