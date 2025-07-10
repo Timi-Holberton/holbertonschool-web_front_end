@@ -124,7 +124,7 @@ ul.row {
 	margin: 0;
 }
 
-.card-services {
+.card-services a {
 	display: block;
 	padding: 2rem;
 	background-color: var(--color-light-grey);
