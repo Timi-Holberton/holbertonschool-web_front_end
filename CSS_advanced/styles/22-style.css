@@ -205,14 +205,3 @@ a:active {
 	text-align: right;
 }
 
-.footer-adress {
-	color: var(--text-color)
-}
-
-.social-link {
-	display: block;
-}
-
-.social-link svg {
-	fill: var(--text-color);
-}
