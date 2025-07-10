@@ -126,10 +126,14 @@ ul.row {
 	float: right;
 }
 
+.navbar-menu {
+	float: right;
+}
+
 .nav {
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	list-style-type: none;
 	text-align: center;
 }
 
@@ -142,16 +146,6 @@ ul.row {
 	margin: var(--nav-item-margin);
 }
 
-.nav .nav-link::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: var(--color-white);
-	width: 0;
-	height: 2rem;
-}
-
 .nav .nav-link {
 	display: block;
 	padding: 0.5rem 1rem;
@@ -159,7 +153,16 @@ ul.row {
 
 .nav .nav-link:hover {
 	color: var(--nav-item-link-hover);
-	background-color: var(--color-primary);
+}
+
+.nav .nav-link::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--color-white);
+	width: 0;
+	height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
