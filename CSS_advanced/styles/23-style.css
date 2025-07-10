@@ -207,7 +207,7 @@ a:active {
 }
 
 .footer-address {
-	color: var(--text-color)
+	color: var(--text-color);
 }
 
 .social-link {
